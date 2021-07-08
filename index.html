@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Your page title here :)</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+<section class="main">
+  <div class="infographics-wrap">
+    <div class="card card-header">
+      <div class="card-title">
+        <h1>the<br>Five Keys<br>to Safer<br>Food</h1>
+      </div>
+      <div class="visual">
+        <img src="images/cards/5-keys-visual.png" alt="5 Keys visual">
+      </div>
+    </div>
+    <div class="card card-contents" id="key-1">
+      <div class="modal-trigger" onclick="showModal(this)"></div>
+      <div class="card-title">
+        <h2>Keep clean</h2>
+      </div>
+      <div class="visual">
+        <img src="images/cards/key-1-visual.png" alt="Key 1 visual">
+      </div>
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus mi id varius mollis. Mauris eu ante non arcu dignissim vulputate a ut augue. Etiam sed quam ligula.</p>
+        <ul>
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>Lorem ipsum dolor sit amet</li>
+        </ul>
+      </div>
+      <div class="card-number">
+        <img src="images/cards/key-1.svg" alt="Key 1">
+      </div>
+    </div>
+    <div class="card card-contents" id="key-2">
+      <div class="modal-trigger" onclick="showModal(this)"></div>
+      <div class="card-title">
+        <h2>Separate raw and cooked</h2>
+      </div>
+      <div class="visual">
+        <img src="images/cards/key-2-visual.png" alt="Key 2 visual">
+      </div>
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus mi id varius mollis. Mauris eu ante non arcu dignissim vulputate a ut augue. Etiam sed quam ligula.</p>
+        <ul>
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>Lorem ipsum dolor sit amet</li>
+        </ul>
+      </div>
+      <div class="card-number">
+        <img src="images/cards/key-2.svg" alt="Key 2">
+      </div>
+    </div>
+    <div class="card card-contents" id="key-3">
+      <div class="modal-trigger" onclick="showModal(this)"></div>
+      <div class="card-title">
+        <h2>Cook thoroughly</h2>
+      </div>
+      <div class="visual">
+        <img src="images/cards/key-3-visual.png" alt="Key 3 visual">
+      </div>
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus mi id varius mollis. Mauris eu ante non arcu dignissim vulputate a ut augue. Etiam sed quam ligula.</p>
+        <ul>
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>Lorem ipsum dolor sit amet</li>
+        </ul>
+      </div>
+      <div class="card-number">
+        <img src="images/cards/key-3.svg" alt="Key 3">
+      </div>
+    </div>
+    <div class="card card-contents" id="key-4">
+      <div class="modal-trigger" onclick="showModal(this)"></div>
+      <div class="card-title">
+        <h2>Keep food at safe temperatures</h2>
+      </div>
+      <div class="visual">
+        <img src="images/cards/key-4-visual.png" alt="Key 4 visual">
+      </div>
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus mi id varius mollis. Mauris eu ante non arcu dignissim vulputate a ut augue. Etiam sed quam ligula.</p>
+        <ul>
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>Lorem ipsum dolor sit amet</li>
+        </ul>
+      </div>
+      <div class="card-number">
+        <img src="images/cards/key-4.svg" alt="Key 4">
+      </div>
+    </div>
+    <div class="card card-contents" id="key-5">
+      <div class="modal-trigger" onclick="showModal(this)"></div>
+      <div class="card-title">
+        <h2>Use safe water and raw materials</h2>
+      </div>
+      <div class="visual">
+        <img src="images/cards/key-5-visual.png" alt="Key 5 visual">
+      </div>
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus mi id varius mollis. Mauris eu ante non arcu dignissim vulputate a ut augue. Etiam sed quam ligula.</p>
+        <ul>
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>Lorem ipsum dolor sit amet</li>
+        </ul>
+      </div>
+      <div class="card-number">
+        <img src="images/cards/key-5.svg" alt="Key 5">
+      </div>
+    </div>
+</section>
+
+<section class="modal">
+  <div class="modal-box">
+    <div class="modal-close" onclick="closeModal(this)"></div>
+    <div class="modal-visual">
+      <img src="" alt="">
+    </div>
+    <div class="modal-contents">
+      <div class="modal-title">
+      </div>
+      <div class="modal-content">
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="js/functions.js"></script>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

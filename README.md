@@ -3,7 +3,7 @@
 ## Workflow
 
 1. git clone
-2. git checkout dev
+2. git checkout dev (git branch to confirm you are working in dev branch)
 3. work in dev, add/commit/push to send changes on branch
 4. git checkout main
 5. git merge dev

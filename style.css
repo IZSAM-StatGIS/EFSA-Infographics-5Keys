@@ -327,7 +327,7 @@ img {
   -webkit-justify-content: flex-start;
   -ms-justify-content: flex-start;
   justify-content: flex-start;
-  -webkit-lex-direction: column;
+  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
   visibility: hidden;
@@ -394,9 +394,6 @@ img {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  -webkit-lex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
   line-height: 0;
   padding: 3.4rem;
   border-top-left-radius: 2.4rem;

@@ -89,6 +89,14 @@ img {
   color: var(--white);
 }
 
+.infographics-wrap .source {
+  position: absolute;
+  left: 2.1rem;
+  bottom: 2.1rem;
+  font-size: 1.3rem;
+  opacity: 0.8;
+}
+
 .infographics-wrap .card-title {
   padding: 2.1rem 1.3rem;
 }

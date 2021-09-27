@@ -318,7 +318,7 @@ img {
   width: 100vw;
   overflow: auto;
   background: rgb(29,175,142);
-  background: linear-gradient(135deg, rgba(29,175,142,0.95) 0%, rgba(0,165,144,0.95) 100%);
+  background: linear-gradient(135deg, rgba(29,175,142,0.75) 0%, rgba(0,165,144,0.75) 100%);
   opacity: 0;
   z-index: -1;
   display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
@@ -346,7 +346,7 @@ img {
 #modal-key-2,
 #modal-key-4 {
   background: rgb(36,104,152);
-  background: linear-gradient(135deg, rgba(36,104,152,0.95) 0%, rgba(31,87,128,0.95) 100%);
+  background: linear-gradient(135deg, rgba(36,104,152,0.75) 0%, rgba(31,87,128,0.75) 100%);
 }
 
 .show-modal .modal {
@@ -437,6 +437,27 @@ img {
     max-width: 49rem;
     width: 90%;
   }
+}
+
+.modal-visual .modal-number {
+  position: absolute;
+  top: 1.3rem;
+  left: 1.3rem;
+  width: 3.4rem;
+  opacity: 0.5;
+}
+
+@media (min-width: 1000px) {
+  .modal-visual .modal-number {
+    bottom: 1.3rem;
+    right: 1.3rem;
+    top: auto;
+    left: auto;
+  }
+}
+
+.modal-visual .modal-number img {
+  width: 100%;
 }
 
 #modal-key-1 .modal-visual,
